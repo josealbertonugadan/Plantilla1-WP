@@ -10,20 +10,29 @@
 		Sitio en construcción...
 	</h1>
 	Autor: José Alberto Núñez Magadán<br>
-    Aspiring Data Scientist
+    Aprendiendo y enseñando<br>
+    Matemático, gusto por la ciencia de datos, entusiasta de la web<br>
     
      
-<!-- 
 <header>
     <div class="container">
-        <div class="row">
+        <div class="row align-items-center">
             <div class="col-4">
-                <img src="
-                <?/*php echo get_template_directroy_uri()*/?>
-                /assets/img/logo.png" alt="logo">
+                <img src="<?php echo get_template_directory_uri()?>/assets/img/logo.png" alt="logo">
+            </div>
+            <div class="col-8">
+                <nav>
+                    <?php wp_nav_menu( 
+                        array(
+                            'thme_location' => 'top_menu',
+                            'menu_class' => 'menu-principal',
+                            'container_class' => 'container-menu',
+                        )                        
+                    );?>
+                </nav>
             </div>
         </div>
     </div>
 
 </header>
- -->
+
