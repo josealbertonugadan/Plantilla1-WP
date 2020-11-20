@@ -6,14 +6,7 @@
     <?php wp_head() ?>
 </head>
 <body>
-	<h1>
-		Sitio en construcción...
-	</h1>
-	Autor: José Alberto Núñez Magadán<br>
-    Aprendiendo y enseñando<br>
-    Matemático, gusto por la ciencia de datos, entusiasta de la web<br>
-    
-     
+        
 <header>
     <div class="container">
         <div class="row align-items-center">
@@ -36,3 +29,9 @@
 
 </header>
 
+    <h1>
+		Sitio en construcción...
+	</h1>
+	Autor: José Alberto Núñez Magadán<br>
+    Aprendiendo y enseñando<br>
+    Matemático, gusto por la ciencia de datos, entusiasta de la web<br>
