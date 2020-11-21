@@ -17,7 +17,7 @@
                 <nav>
                     <?php wp_nav_menu( 
                         array(
-                            'thme_location' => 'top_menu',
+                            'theme_location' => 'top_menu',
                             'menu_class' => 'menu-principal',
                             'container_class' => 'container-menu',
                         )                        
@@ -28,10 +28,3 @@
     </div>
 
 </header>
-
-    <h1>
-		Sitio en construcción...
-	</h1>
-	Autor: José Alberto Núñez Magadán<br>
-    Aprendiendo y enseñando<br>
-    Matemático, gusto por la ciencia de datos, entusiasta de la web<br>

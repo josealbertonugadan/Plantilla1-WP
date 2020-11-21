@@ -43,3 +43,30 @@ function sidebar(){
 }
 
 add_action('widgets_init', 'sidebar');
+
+function productos_type(){
+
+	$labels = array(
+		'name' => 'productos',
+		'singular_name' => 'producto',
+		'menu_name' => 'Productos',
+	);
+
+	$args = array(
+		'label' => 'productos',
+		'description' => 'Productos de Platzi',
+		'labels' => $labels,
+		'supports' => array('title','editor','thumbnail','revisions'),
+		'public' => true,
+		'show_in_menu' => true,
+		'menu_position' => 5,
+		'menu_icon' => 'dashicons-cart',
+		'can_export' => true,
+		'publicly_queryable' => true,
+		'rewrite' => true,
+		'show_in_rest' => true
+	);
+	register_post_type('productos', $args);
+}
+
+add_action('init','productos_type');
